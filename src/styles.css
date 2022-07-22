@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #885df1;
+  --secondary-color: #efedf4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h2 {
+  text-align: center;
+  font-size: 46px;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+}
+h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  opacity: 0.7;
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.buttons a {
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.contacts {
+  box-shadow: var(--box-shadow);
+
+  color: white;
+  background: var(--primary-color);
+}
+.info {
+  border: 2px solid var(--primary-color);
+
+  color: var(--primary-color);
+}
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.about-articles {
+  display: flex;
+  margin-top: 30px 0;
+}
+.about-articles p {
+  margin: 10px;
+}
+.mail-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  font-size: 28px;
+  text-decoration: none;
+}
+.mail-link:hover {
+  text-decoration: underline;
+}
